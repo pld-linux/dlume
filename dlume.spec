@@ -9,9 +9,9 @@ Source0:	http://clay.ll.pl/download/%{name}-%{version}.tar.gz
 # Source0-md5:	6b2a3ef0eff622a412395187d1c5d178
 Source1:	%{name}.desktop
 URL:		http://clay.ll.pl/dlume.html
+#BuildRequires:	ImageMagick
 BuildRequires:	gtk+2-devel >= 2.0.0
 BuildRequires:	libxml2-devel >= 2.4.0
-#BuildRequires:	ImageMagick
 BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -24,7 +24,7 @@ CSV and HTML formats is also available.
 
 %description -l pl
 Dlume to ³adna ksi±¿ka adresowa oparta o gtk2. W ³atwy sposób mo¿na
-dodawaæ, edytowaæ i usuwaæ rekordy z bazy (Dlume nie korzysta z
+dodawaæ, modyfikowaæ i usuwaæ rekordy z bazy (Dlume nie korzysta z
 zewnêtrznej bazy - przechowuje kontakty w formacie XML). Szybkie
 wyszukiwanie umo¿liwia w ³atwy sposób znalezienie po¿±danej pozycji.
 Mo¿liwy jest eksport do CVS i HTML.
@@ -38,7 +38,6 @@ Mo¿liwy jest eksport do CVS i HTML.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
 install -d $RPM_BUILD_ROOT{%{_pixmapsdir},%{_desktopdir}}
 
 %{__make} install \
