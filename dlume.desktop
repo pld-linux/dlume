@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Dlume
+GenericName=Addressbook
+GenericName[pl]=Addressbook
+Comment=Handy and easy to use addressbook
+Comment[pl]=Poręczna i łatwa w użyciu książka adresowa
+Exec=dlume
+Icon=dlume.png
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=GTK;Office;ContactManagement;
+Encoding=UTF-8
+# vi: encoding=utf-8
