@@ -2,7 +2,7 @@ Summary:	Handy and easy to use addressbook
 Summary(pl):	Porêczna i ³atwa w u¿yciu ksi±¿ka adresowa
 Name:		dlume
 Version:	0.2.4
-Release:	1
+Release:	1.1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://clay.ll.pl/download/%{name}-%{version}.tar.gz
@@ -11,7 +11,7 @@ Source1:	%{name}.desktop
 URL:		http://clay.ll.pl/dlume.html
 BuildRequires:	gtk+2-devel >= 2.0.0
 BuildRequires:	libxml2-devel >= 2.4.0
-BuildRequires:	ImageMagick
+#BuildRequires:	ImageMagick
 BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -23,9 +23,9 @@ feature allows you find required entry in comfortable way. Export to
 CSV and HTML formats is also available.
 
 %description -l pl
-Dlume to ³adne ksi±¿ka adresowa oparta na gtk2. W ³atwy sposó mo¿na
+Dlume to ³adna ksi±¿ka adresowa oparta o gtk2. W ³atwy sposób mo¿na
 dodawaæ, edytowaæ i usuwaæ rekordy z bazy (Dlume nie korzysta z
-zwnêtrznej bazy - przechowuje kontakty w formacie XML). Szybkie
+zewnêtrznej bazy - przechowuje kontakty w formacie XML). Szybkie
 wyszukiwanie umo¿liwia w ³atwy sposób znalezienie po¿±danej pozycji.
 Mo¿liwy jest eksport do CVS i HTML.
 
