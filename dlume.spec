@@ -10,7 +10,7 @@ Source0:	http://clay.ll.pl/download/%{name}-%{version}.tar.gz
 Source1:	%{name}.desktop
 URL:		http://clay.ll.pl/dlume.html
 #BuildRequires:	ImageMagick
-BuildRequires:	gtk+2-devel >= 2.0.0
+BuildRequires:	gtk+2-devel >= 1:2.0.0
 BuildRequires:	libxml2-devel >= 2.4.0
 BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
