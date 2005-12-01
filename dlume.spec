@@ -27,7 +27,7 @@ Dlume to ³adna ksi±¿ka adresowa oparta o gtk2. W ³atwy sposób mo¿na
 dodawaæ, modyfikowaæ i usuwaæ rekordy z bazy (Dlume nie korzysta z
 zewnêtrznej bazy - przechowuje kontakty w formacie XML). Szybkie
 wyszukiwanie umo¿liwia w ³atwy sposób znalezienie po¿±danej pozycji.
-Mo¿liwy jest eksport do CVS i HTML.
+Mo¿liwy jest eksport do CSV i HTML.
 
 %prep
 %setup -q
