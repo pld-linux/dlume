@@ -1,5 +1,5 @@
 Summary:	Handy and easy to use addressbook
-Summary(pl):	Porêczna i ³atwa w u¿yciu ksi±¿ka adresowa
+Summary(pl.UTF-8):   PorÄ™czna i Å‚atwa w uÅ¼yciu ksiÄ…Å¼ka adresowa
 Name:		dlume
 Version:	0.2.4
 Release:	1.1
@@ -22,12 +22,12 @@ database - It stores your contacts in XML format). The Quick-search
 feature allows you find required entry in comfortable way. Export to
 CSV and HTML formats is also available.
 
-%description -l pl
-Dlume to ³adna ksi±¿ka adresowa oparta o gtk2. W ³atwy sposób mo¿na
-dodawaæ, modyfikowaæ i usuwaæ rekordy z bazy (Dlume nie korzysta z
-zewnêtrznej bazy - przechowuje kontakty w formacie XML). Szybkie
-wyszukiwanie umo¿liwia w ³atwy sposób znalezienie po¿±danej pozycji.
-Mo¿liwy jest eksport do CSV i HTML.
+%description -l pl.UTF-8
+Dlume to Å‚adna ksiÄ…Å¼ka adresowa oparta o gtk2. W Å‚atwy sposÃ³b moÅ¼na
+dodawaÄ‡, modyfikowaÄ‡ i usuwaÄ‡ rekordy z bazy (Dlume nie korzysta z
+zewnÄ™trznej bazy - przechowuje kontakty w formacie XML). Szybkie
+wyszukiwanie umoÅ¼liwia w Å‚atwy sposÃ³b znalezienie poÅ¼Ä…danej pozycji.
+MoÅ¼liwy jest eksport do CSV i HTML.
 
 %prep
 %setup -q
