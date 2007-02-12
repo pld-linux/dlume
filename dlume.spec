@@ -1,5 +1,5 @@
 Summary:	Handy and easy to use addressbook
-Summary(pl.UTF-8):   Poręczna i łatwa w użyciu książka adresowa
+Summary(pl.UTF-8):	Poręczna i łatwa w użyciu książka adresowa
 Name:		dlume
 Version:	0.2.4
 Release:	1.1
